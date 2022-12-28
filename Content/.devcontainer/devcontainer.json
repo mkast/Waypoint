@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.106.0/containers/dotnetcore-3.1-fsharp
 {
-	"name": "F# (.NET Core 3.1)",
+	"name": "F# (.NET 7.0)",
 	"dockerFile": "Dockerfile",
 
 	// Set *default* container specific settings.json values on container create.
@@ -16,7 +16,10 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"Ionide.Ionide-fsharp",
-		"ms-vscode.csharp"
+		"ms-vscode.csharp",
+		"editorconfig.editorconfig",        
+        "ionide.ionide-paket",
+        "ionide.ionide-fake"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
